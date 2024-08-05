@@ -1,12 +1,10 @@
 package backend.academia.fortaleza.contiguration;
 
 
-
-
-import backend.academia.fortaleza.Application;
-
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+import backend.academia.fortaleza.Application;
 
 public class ServletInitializer extends SpringBootServletInitializer {
 

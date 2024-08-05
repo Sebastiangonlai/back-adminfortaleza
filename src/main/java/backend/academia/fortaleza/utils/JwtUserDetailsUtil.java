@@ -2,9 +2,6 @@
 package backend.academia.fortaleza.utils;
 
 
-import backend.academia.fortaleza.persistence.Usuario;
-import backend.academia.fortaleza.services.UsuarioService;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -14,6 +11,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 import java.util.Set;
+
+import backend.academia.fortaleza.persistence.Usuario;
+import backend.academia.fortaleza.services.UsuarioService;
 
 @Service
 public class JwtUserDetailsUtil implements UserDetailsService {

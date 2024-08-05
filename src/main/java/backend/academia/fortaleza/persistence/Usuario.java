@@ -3,10 +3,13 @@ package backend.academia.fortaleza.persistence;
 
 import backend.academia.fortaleza.datatypes.DtNuevoUsuario;
 import backend.academia.fortaleza.services.PasswordService;
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @Entity
 @Table(name = "Usuario")

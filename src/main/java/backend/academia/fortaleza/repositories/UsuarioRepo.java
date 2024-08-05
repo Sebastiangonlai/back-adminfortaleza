@@ -1,14 +1,14 @@
 
 package backend.academia.fortaleza.repositories;
 
-import backend.academia.fortaleza.persistence.Usuario;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+
+import backend.academia.fortaleza.persistence.Usuario;
 
 @Repository
 

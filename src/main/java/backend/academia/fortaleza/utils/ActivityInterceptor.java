@@ -1,15 +1,14 @@
 package backend.academia.fortaleza.utils;
 
-import backend.academia.fortaleza.persistence.Usuario;
-import backend.academia.fortaleza.services.UsuarioService;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.time.LocalDateTime;
+import backend.academia.fortaleza.persistence.Usuario;
+import backend.academia.fortaleza.services.UsuarioService;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 @Component
 public class ActivityInterceptor implements HandlerInterceptor {

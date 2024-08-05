@@ -1,9 +1,10 @@
 package backend.academia.fortaleza.utils;
 
-import backend.academia.fortaleza.datatypes.DtNuevoUsuario;
-import lombok.experimental.UtilityClass;
 import java.util.HashMap;
 import java.util.Map;
+
+import backend.academia.fortaleza.datatypes.DtNuevoUsuario;
+import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public class RoleUtil {
