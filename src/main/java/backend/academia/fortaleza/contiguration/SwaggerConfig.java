@@ -20,7 +20,7 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
                 description = "Esta es la API de Academia Fortaleza.",
                 contact = @Contact(
                         name = "Backend Fortaleza",
-                        url = "https://sebastiangonlai.github.io/back-adminfortaleza/swagger-ui/index.html"
+                        url = "https://adminfortaleza.vercel.app/"
                 )
         ),
         security = @SecurityRequirement(name = "bearerAuth")
