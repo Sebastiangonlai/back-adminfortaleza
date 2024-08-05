@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Configuration;
                 description = "Esta es la API de Academia Fortaleza.",
                 contact = @Contact(
                         name = "Backend Fortaleza",
-                        url = "http://localhost:8080/swagger-ui/index.html"
+                        url = "https://sebastiangonlai.github.io/back-adminfortaleza/swagger-ui/index.html"
                 )
         ),
         security = @SecurityRequirement(name = "bearerAuth")

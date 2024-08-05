@@ -8,7 +8,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-        abrirNavegadorConRuntime("http://localhost:8080/swagger-ui/index.html");
+        abrirNavegadorConRuntime("https://sebastiangonlai.github.io/back-adminfortaleza/swagger-ui/index.html");
 	}
 
     private static void abrirNavegadorConRuntime(String url) {
